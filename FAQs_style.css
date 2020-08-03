@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bellota:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+*{
+	overflow-x: hidden;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.096);
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	position: fixed;
+	background-color: black;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand{
+	font-style: 'Anton',cursive;
+	letter-spacing: 0.5px;
+	color: white;
+	margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand img{
+  width: 50px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.question{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.question h4{
+    margin: 10px;
+}
+
+.question textarea{
+    margin: 10px;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid black;
+  border-right: none;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid goldenrod;
+  background: goldenrod;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 250px;
+  position: relative;
+  margin-top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pre-question{
+  background-color: whitesmoke;
+  border: thin solid black;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 5px 2px 10px black;
+}

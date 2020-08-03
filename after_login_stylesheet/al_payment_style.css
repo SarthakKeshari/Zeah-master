@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bellota:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+*{
+	overflow-x: hidden;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-image: url("zeah-name-watermark.png");
+	margin: 0;
+    padding: 0;
+    color: black;
+}
+
+nav{
+	position: fixed;
+	background-color: black;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.navbar-brand{
+	font-style: 'Anton',cursive;
+	letter-spacing: 0.5px;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-brand img{
+	width: 50px;
+}
+
+#payment-page-heading{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#payment-page-heading:first-letter{
+	font-weight: bold;
+	color: goldenrod;
+	font-size: 120%;
+}
+
+#bought-items{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 100%;
+}
+
+hr{
+	box-shadow: 0px 5px 10px black;
+}
+
+#product-details{
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+	transform: skew(5deg);
+	background-color: rgba(255, 255, 255, 0.514);
+}
+
+#product-pic{
+	padding: 10px;
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#product-pic img{
+	box-shadow: 1px 1px 10px black;
+}
+
+#product-summary{
+	width: 60%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#receipt-border{
+	margin-top: 50px;
+	padding: 10px;
+	border: 2px dashed goldenrod;
+	box-shadow: 0px 5px 10px black;
+}
+
+#receipt-heading{
+	text-align: center;
+	font-weight: 600;
+}
+
+#receipt{
+	margin: 10px;
+	margin-top: 40px;
+}
+
+#product-name{ 
+	width: 70%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#product-price{ 
+	width: 30%;
+	float: right;
+}
+
+#total{
+	text-align: center;
+}
